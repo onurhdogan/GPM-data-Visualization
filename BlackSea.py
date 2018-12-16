@@ -9,7 +9,7 @@ import numpy as np
 
 #import h5py as h5py
 
-nc_file = '/home/onurhdogan/Downloads/gpm/3B-DAY-L.MS.MRG.3IMERG.20181112-S000000-E235959.V05.nc4.nc'
+nc_file = '../3B-DAY-L.MS.MRG.3IMERG.20181112-S000000-E235959.V05.nc4.nc'
 dataset = Dataset(nc_file, mode='r')
 
 
@@ -120,4 +120,4 @@ cbar.set_label('mm/h')
 
  
 
-#plt.savefig('/home/onurhdogan/Downloads/gpm/karadeniz.png',dpi=200)   #change your directory
+#plt.savefig('../*.png',dpi=200)   #change to your directory
