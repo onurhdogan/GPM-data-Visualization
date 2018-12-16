@@ -46,7 +46,7 @@ m.bluemarble(scale=3)
 #m.shadedrelief(scale=2)
 #m.etopo(scale=3)
 
-#scale=2
+
 
 #m.drawstates()
 
@@ -59,8 +59,6 @@ m.bluemarble(scale=3)
 clevs = np.arange(0,60,5)   #color scale changing
 
 #clevs = [2,5,10,20,30,40,50,60,70,100]
-
-#clevs = np.arange(0,1000,20)
 
  
 
